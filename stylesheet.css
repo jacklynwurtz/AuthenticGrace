@@ -193,6 +193,8 @@
     .look-images {
         display: inline-block;
         text-align: center;
+        font-size: 13px;
+        font-family: 'Comfortaa', cursive;
     }
     
     .subscribe {
