@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device, inital-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Authentic Grace</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/d1375fa010.js"></script>
@@ -88,8 +90,52 @@
             <table>
                 <tr>
                     <td>
-                        <a href="floral-maxi.html"><img src="beautiful-woman-fashion-female-2499460.jpg" alt="woman in dress"></a>
+                        <a href="floral-maxi.html"><img src="modal1.jpg" alt="woman in dress"></a>
                         <p>Floral Maxi Dress<br>$35.00</p>
+                        <button id="modal-btn" class="button">Quick View</button>
+
+                        <div id="my-modal" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span class="close">&times;</span>
+                                    <h2>Quick View</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <table class="modal-table">
+                                        <tr>
+                                            <td class="image-block">
+                                                <img src="modal1.jpg" atl="Woman in floral maxi" class="top-image" width="200px" height="300px">
+
+                                            </td>
+                                            <td>
+                                                <div class="product-info">
+                                                    <p>Floral Maxi Dress-$35.00</p>
+                                                    <p>Gorgeous floor length maxi. Woven fabric with and all over floral print. Features a v-neck and sheer long sleeves. Lovely cinched waistline and tiered skirt.
+                                                    </p>
+                                                </div>
+                                                <div class="size-markers">
+                                                    <button class="sizes">XS</button>
+                                                    <button class="sizes">S</button>
+                                                    <button class="sizes">M</button>
+                                                    <button class="sizes">L</button>
+                                                    <button class="sizes">XS</button>
+                                                </div>
+                                                <form action="/action_page.php" class="quantity">
+                                                    Quantity: <input type="number" name="quantity" min="1" max="5">
+
+                                                </form>
+                                                <p><button>Add to Cart</button></p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="floral-maxi.html">
+                                        <h3>View More Dresses</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </td>
                     <td>
                         <a href="#"><img src="latestlook1.jpg" alt="woman in sweater and skirt"></a>
@@ -134,14 +180,16 @@
         </div>
         <div class="column">
             <h1>CONNECT</h1>
-            <p class="social"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></a></i> <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-3x"></a></i>
+            <p class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></a></i>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-3x"></a></i>
                 <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest fa-3x"></a></i>
             </p>
         </div>
         <div class="column">
             <h1>ABOUT</h1>
             <p><a href="#">FAQ</a></p>
-            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="#">Contact Us</a></p>
             <p><a href="#">Blog</a></p>
             <p><a href="#">Return Policy</a></p>
         </div>
@@ -152,6 +200,7 @@
         <p class="copyright"><i class="far fa-copyright"></i> 2019 Authentic Grace</p>
     </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
